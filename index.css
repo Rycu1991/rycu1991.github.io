@@ -18,8 +18,9 @@ header{
 }
 .navbar{
     position:absolute;
-  @media screen and (max-width: 400px){
-      position:absolute;  
+    @media screen and (min: width 400px){
+      .navbar{position:absolute;
+    display:inline;}  
     }
 }
 a{
