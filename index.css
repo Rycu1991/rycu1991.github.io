@@ -3,7 +3,7 @@ body{
 }
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: rgb(37, 35, 35);
   }
 }
 img{
@@ -23,11 +23,13 @@ header{
 }
 .navbar{
     position:absolute;
-    @media screen and (min: width 400px){
-      .navbar{position:absolute;
-    display:inline;}  
-    }
 }
+    @media screen and (max: width 600px){
+      .navbar{
+          position:absolute;
+    display:inline;
+        }  
+    }
 a{
     color:rgb(242, 237, 248);
     display:inline-block;
