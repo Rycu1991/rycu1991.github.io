@@ -99,3 +99,8 @@ form .submit{
     grid-column-gap: 100px;
     grid-row-gap: 50px;
 }
+@media screen and(max-width:600px){
+    body{
+        background-color: blue;
+    }
+}
