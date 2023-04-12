@@ -3,7 +3,7 @@ body{
 }
 @media only screen and (max-width: 600px) {
   body {
-    background-color: blue;
+    background-color: rgb(37, 35, 35);
   }
 }
 img{
@@ -45,14 +45,18 @@ li{
     margin-left: 130px;
     margin-top: 420px; }
      @media screen and (max: width 600px){
-         li{ display: inline-block;
-    margin-left: 130px;
-    margin-top: 420px; 
+         li{ display: inline-block;}
 }
 button{
     background-color: rgb(78, 78, 78);
     padding: 18px;
     border-radius: 10px;
+}
+@media screen and (max: width 600px){
+    button{background-color: rgb(78, 78, 78);
+    padding: 18px;
+    border-radius: 10px;
+    }
 }
 button:hover{
     background-color: rgb(75, 132, 182);
