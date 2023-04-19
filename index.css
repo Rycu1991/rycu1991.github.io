@@ -94,7 +94,6 @@ p{
 form{
     margin-top: 0px;
     transition: all 4s ease-in-out;
-    margin-left: 50px;
 }
 
 .form-control{
@@ -110,6 +109,7 @@ form{
     @media only screen and (max-width:600px) {
     width: 80%;
     height: 30px;
+        margin-bottom: 0;
     }
 }
 
@@ -125,6 +125,7 @@ form .submit{
     @media only screen and (max-width:600px) {
     width: 80%;
     height: 30px;
+        margin-bottom:0;
     }
 }
 .Gallery{
