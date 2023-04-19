@@ -1,18 +1,13 @@
 body{
     background-color: rgb(37, 35, 35);
 }
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: rgb(37, 35, 35);
-  }
-}
+
 img{
     width:100%;
     height:500px;
-  @media screen and (max-width: 400px){
-      position:absolute;  
-    }
-    }
+    @media only screen and (max-width:600px) {
+    width: 100%;
+    height: 180px;
     }
 }
 header{
@@ -20,48 +15,49 @@ header{
     font-size: 35px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    @media only screen and (max-width:600px) {
+        font-size: 20px;
+        color:rgb(243, 151, 151);
+        text-align: center;
+    }
 }
 .navbar{
     position:absolute;
-}
-    @media screen and (max: width 600px){
-      .navbar{
-          position:absolute;
-    display:inline;
-          min-inline-size: 200px;
-        }  
+    @media screen only and (max: width 600px) {
+        display: inline;
     }
+}
 a{
     color:rgb(242, 237, 248);
-    display:inline-block;
+    display:inline;
     font-size: 20px;
-    
-}
-@media screen and (max: width 600px){
-    a{ color:rgb(242, 237, 248);
-    display:inline-block;
-        font-size: 20px;
-    min-inline-size: 200px;
-    }
+    @media only screen and (max-width:600px) {
+       
+        font-size:10px;
+      
+        }
 }
 li{
-    display: inline-block;
+    display: inline;
     margin-left: 130px;
-    margin-top: 420px; }
-     @media screen and (max: width 600px){
-         li{ display: inline-block;
-         min-inline-size: 200px;
-         }
+    margin-top: 420px;   
+    @media only screen and (max-width:600px) {
+   position:inline-flex;
+   display:inline-block;
+   float: left;
+   margin-left:0;
+   margin-top:50px;
+   padding: 4px;
+        }
 }
 button{
     background-color: rgb(78, 78, 78);
     padding: 18px;
     border-radius: 10px;
-}
-@media screen and (max: width 600px){
-    button{background-color: rgb(78, 78, 78);
-    border-radius: 10px;
-       min-inline-size: 200px;
+    @media only screen and (max-width:600px) {
+       
+        padding: 5px;
+       margin-top:85px;
     }
 }
 button:hover{
@@ -70,6 +66,8 @@ button:hover{
 h1{
     color:rgb(248, 241, 241);
     text-align: center;
+    @media only screen and (max-width:600px) {
+        font-size:20px;}
 }
 h2{
     color:rgb(242, 237, 248); 
@@ -82,6 +80,8 @@ p{
     color:rgb(243, 151, 151);
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
+    @media only screen and (max-width:600px) {
+        font-size:18px;}
 }
 .container{
     border-spacing: 20px;
@@ -124,11 +124,9 @@ form .submit{
     grid: repeat(2,1fr)/repeat(3,1fr); 
     grid-column-gap: 100px;
     grid-row-gap: 50px;
-        @media only screen and (max-width:600px) {
+    @media only screen and (max-width:600px) {
     display: inline-block;
     margin-left:20px;
     max-width: 500px;
-    
     }
 }
-
