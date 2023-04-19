@@ -71,10 +71,14 @@ h1{
 }
 h2{
     color:rgb(242, 237, 248); 
+    @media only screen and (max-width:600px) {
+        font-size:20px;}
 }
 h4{
     color: rgb(127, 151, 173);
     font-size: 23px;
+    @media only screen and (max-width:600px) {
+        font-size:16px;}
 }
 p{
     color:rgb(243, 151, 151);
