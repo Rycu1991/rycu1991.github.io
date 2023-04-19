@@ -29,12 +29,3 @@ form .submit{
     height: 57px;
     margin-top: 20px;
 }
-.contactmap{
-    display: inline-flex;
-    margin-left: 300px;
-    border-spacing: 40px;
-    margin-top: 40px;
-}
-.map{
-    margin-left: 70px;
-}
