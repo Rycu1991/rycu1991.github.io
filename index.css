@@ -124,4 +124,11 @@ form .submit{
     grid: repeat(2,1fr)/repeat(3,1fr); 
     grid-column-gap: 100px;
     grid-row-gap: 50px;
+        @media only screen and (max-width:600px) {
+    display: inline-block;
+    margin-left:20px;
+    max-width: 500px;
+    
+    }
 }
+
