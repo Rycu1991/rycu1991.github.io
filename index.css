@@ -144,3 +144,8 @@ form .submit{
     max-width: 500px;
     }
 }
+.contactmap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
