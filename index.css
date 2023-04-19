@@ -94,6 +94,7 @@ p{
 form{
     margin-top: 0px;
     transition: all 4s ease-in-out;
+    margin-left: 50px;
 }
 
 .form-control{
